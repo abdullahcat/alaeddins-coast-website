@@ -11,15 +11,14 @@ import Script from 'next/script';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 
-export default async function LocaleLayout({
-  children,
-  params: { locale }
-}: {
+interface LocaleLayoutProps {
   children: React.ReactNode;
-  params: { locale: string };
-}) {
-  unstable_setRequestLocale(locale);
-  const messages = await getMessages();
+  params: { locale: any };
+}
+
+export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
+  const { locale } = params;
+  const messages = await getMessages(locale); // Fetch messages server-side
 
   return (
 
