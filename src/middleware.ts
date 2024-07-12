@@ -1,5 +1,6 @@
 import createMiddleware from 'next-intl/middleware';
-
+import { NextRequest, NextResponse } from 'next/server';
+import { unstable_setRequestLocale } from 'next-intl/server';
 export default createMiddleware({
     // A list of all locales that are supported
     locales: ['en', 'tr', 'ru'],

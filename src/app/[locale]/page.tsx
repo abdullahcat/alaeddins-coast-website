@@ -6,7 +6,6 @@ import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { Alex_Brush, Old_Standard_TT } from 'next/font/google';
 import { AccountBalanceOutlined, AddCommentOutlined, ApartmentOutlined, ArticleOutlined, CurrencyBitcoinOutlined, EventSeatOutlined, ExploreOutlined, Face2Outlined, LocalTaxiOutlined, NoCrashOutlined, PersonOutline, PolicyOutlined, Translate } from '@mui/icons-material';
-import Script from 'next/script';
 const oldStandard = Old_Standard_TT({ weight: "400", subsets: ["latin"] });
 
 
