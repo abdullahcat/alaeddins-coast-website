@@ -1,13 +1,8 @@
 "use client"
-import { Add, ArrowDownward, BrunchDiningTwoTone, Business, CurrencyBitcoinOutlined, Done, HomeOutlined, LanguageOutlined, MovieCreationOutlined, NoCrashOutlined, QueryStats, QueryStatsOutlined, RocketLaunchOutlined } from "@mui/icons-material";
+import { Add, ArrowDownward, CurrencyBitcoinOutlined, Done, HomeOutlined, LanguageOutlined, MovieCreationOutlined, NoCrashOutlined, QueryStats, QueryStatsOutlined, RocketLaunchOutlined } from "@mui/icons-material";
 import { useTranslations } from "next-intl";
-import { Alex_Brush, Old_Standard_TT } from "next/font/google";
-import Link from "next/link";
-import Script from "next/script";
+import { Old_Standard_TT } from "next/font/google";
 import { Link as ScrollLink } from 'react-scroll';
-
-import { useRef } from "react";
-const alexBrush = Alex_Brush({ weight: "400", subsets: ["latin"] });
 const oldStandard = Old_Standard_TT({ weight: "400", subsets: ["latin"] });
 
 export default function SellWithUs() {

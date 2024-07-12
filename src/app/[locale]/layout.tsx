@@ -1,52 +1,53 @@
-// app/[locale]/layout.tsx
-
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { getLocale, getMessages } from 'next-intl/server';
+
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import { Montserrat } from 'next/font/google';
 import '@/app/globals.css'
 import Script from 'next/script';
+import { Suspense } from "react";
 
 const montserrat = Montserrat({ subsets: ['latin'] });
-
-interface LocaleLayoutProps {
+export default async function RootLayout({
+  children
+}: {
   children: React.ReactNode;
-  params: { locale: any };
-}
+}) {
+  const locale = await getLocale();
 
-export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
-  const { locale } = params;
-  const messages = await getMessages(locale); // Fetch messages server-side
+  // Providing all messages to the client
+  // side is the easiest way to get started
+  const messages = await getMessages();
 
   return (
-
     <html lang={locale}>
-      <Script id='mailerLite'>
-        {`  (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '970618');`}
-      </Script>
       <head>
+        <Script id='mailerLite'>
+          {`(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+          .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+          n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+          (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+          ml('account', '970618');`}
+        </Script>
         <title>Alaeddin&apos;s Coast</title>
       </head>
+      <Suspense>
+        <body className={montserrat.className}>
+          <NextIntlClientProvider messages={messages}>
+            <header className='light bg-white'>
+              <Navbar />
+            </header>
+            <main className='light bg-white'>
+              {children}
+            </main>
+            <footer className='light bg-white'>
+              <Footer />
+            </footer>
+          </NextIntlClientProvider>
+        </body>
+      </Suspense>
 
-      <body className={montserrat.className}>
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <header className='light bg-white'>
-            <Navbar />
-          </header>
-          <main className='light bg-white'>
-            {children}
-          </main>
-          <footer className='light bg-white'>
-            <Footer />
-          </footer>
-        </NextIntlClientProvider>
-      </body>
     </html>
   );
 }

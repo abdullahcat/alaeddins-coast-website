@@ -1,10 +1,12 @@
+"use client"
 import Hero from '@/components/hero';
+
 import '@/app/globals.css';
 import SellYourProperty from '@/components/sellyourproperty';
 import PropertyList from '@/components/property-list';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
-import { Alex_Brush, Old_Standard_TT } from 'next/font/google';
+import { Old_Standard_TT } from 'next/font/google';
 import { AccountBalanceOutlined, AddCommentOutlined, ApartmentOutlined, ArticleOutlined, CurrencyBitcoinOutlined, EventSeatOutlined, ExploreOutlined, Face2Outlined, LocalTaxiOutlined, NoCrashOutlined, PersonOutline, PolicyOutlined, Translate } from '@mui/icons-material';
 const oldStandard = Old_Standard_TT({ weight: "400", subsets: ["latin"] });
 

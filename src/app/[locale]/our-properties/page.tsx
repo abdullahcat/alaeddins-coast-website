@@ -1,6 +1,6 @@
 "use client"
-
 import { useEffect, useState } from 'react';
+
 import client from '@/utils/configSanity';
 import Head from 'next/head';
 import { ArrowDownward } from '@mui/icons-material';
@@ -8,6 +8,8 @@ import Link from 'next/link';
 import { Old_Standard_TT } from 'next/font/google';
 import { Link as ScrollLink } from 'react-scroll';
 import { useTranslations } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
+
 
 interface Place {
     _id: string;

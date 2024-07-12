@@ -1,4 +1,4 @@
-"use client"; // This is a client component 👈🏽
+"use client"
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
@@ -123,7 +123,7 @@ export default function Navbar() {
 
                 </div>
 
-                <div className='items-center flex space-x-4  order-last lg:flex lg:hidden    '>
+                <div className='items-center flex space-x-4  order-last   lg:hidden    '>
                     <div  >
                         <button
                             id="fade-button"

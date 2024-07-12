@@ -16,7 +16,7 @@
     "@sanity/client": "^6.20.1",
     "@sanity/vision": "^3.50.0",
     "leaflet": "^1.9.4",
-    "next": "14.2.4",
+    "next": "^14.2.5",
     "next-intl": "^3.15.3",
     "next-sanity": "^9.4.2",
     "react": "^18",

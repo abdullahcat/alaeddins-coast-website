@@ -1,8 +1,8 @@
 "use client"
 import { ArrowDownward } from "@mui/icons-material";
+
 import { useTranslations } from "next-intl";
 import { Old_Standard_TT } from "next/font/google";
-import Head from "next/head";
 import Link from "next/link";
 const oldStandard = Old_Standard_TT({ weight: "400", subsets: ["latin"] });
 import { Link as ScrollLink } from 'react-scroll';
@@ -10,11 +10,9 @@ import { Link as ScrollLink } from 'react-scroll';
 export default function Page() {
     const translations = useTranslations("Offices");
     return (
-
         <section  >
             <title>
                 {translations('hero.title')}
-
             </title>
             <div className="flex-col flex justify-center items-center">
                 <div className="w-full  " style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>

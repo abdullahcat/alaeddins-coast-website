@@ -1,9 +1,8 @@
 "use client"
 import { useState, useEffect, useRef } from 'react';
+
 import Link from 'next/link';
 import client from '@/utils/configSanity';
-import { ChevronLeft, ChevronRight } from '@mui/icons-material';
-import Head from 'next/head';
 import { Old_Standard_TT } from 'next/font/google';
 import { useTranslations } from 'next-intl';
 
