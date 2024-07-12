@@ -1,12 +1,10 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale, getMessages } from 'next-intl/server';
-
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import { Montserrat } from 'next/font/google';
 import '@/app/globals.css'
 import Script from 'next/script';
-import { Suspense } from "react";
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 export default async function RootLayout({
@@ -15,9 +13,6 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   const locale = await getLocale();
-
-  // Providing all messages to the client
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   return (
@@ -32,21 +27,21 @@ export default async function RootLayout({
         </Script>
         <title>Alaeddin&apos;s Coast</title>
       </head>
-      <Suspense>
-        <body className={montserrat.className}>
-          <NextIntlClientProvider messages={messages}>
-            <header className='light bg-white'>
-              <Navbar />
-            </header>
-            <main className='light bg-white'>
-              {children}
-            </main>
-            <footer className='light bg-white'>
-              <Footer />
-            </footer>
-          </NextIntlClientProvider>
-        </body>
-      </Suspense>
+
+      <body className={montserrat.className}>
+        <NextIntlClientProvider messages={messages}>
+          <header className='light bg-white'>
+            <Navbar />
+          </header>
+          <main className='light bg-white'>
+            {children}
+          </main>
+          <footer className='light bg-white'>
+            <Footer />
+          </footer>
+        </NextIntlClientProvider>
+      </body>
+
 
     </html>
   );
