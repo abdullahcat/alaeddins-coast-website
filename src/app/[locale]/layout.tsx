@@ -24,7 +24,7 @@ export default async function LocaleLayout({
   return (
 
     <html lang={locale}>
-      <Script>
+      <Script id='mailerLite'>
         {`  (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
     .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
     n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
@@ -32,7 +32,7 @@ export default async function LocaleLayout({
     ml('account', '970618');`}
       </Script>
       <head>
-        <title>Alaeddin's Coast</title>
+        <title>Alaeddin&apos;s Coast</title>
       </head>
 
       <body className={montserrat.className}>

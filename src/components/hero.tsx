@@ -22,7 +22,7 @@ function Hero() {
                 <div className="text-center pt-40 space-y-6 z-20" style={{ position: 'absolute' }}>
                     <div className="text-8xl px-10 ">
                         <h1 className={alexBrush.className} >
-                            Alaeddin's <br /> Coast
+                            Alaeddin&apos;s <br /> Coast
                         </h1>
                     </div>
                     <h3>

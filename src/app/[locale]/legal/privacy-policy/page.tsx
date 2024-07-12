@@ -14,7 +14,7 @@ function Page() {
 
                 <h2 className="text-2xl mt-4">1. Kişisel Bilgilerin Toplanması ve Kullanılması</h2>
 
-                <p className="mt-2">Biz, Alaeddin's Coast Estates, müşterilerimizin gizliliğini önemsiyoruz. Bu nedenle, sizden topladığımız kişisel bilgileri korumak ve gizliliğinizi sağlamak için gerekli tüm önlemleri alırız.</p>
+                <p className="mt-2">Biz, Alaeddin&apos;s Coast Estates, müşterilerimizin gizliliğini önemsiyoruz. Bu nedenle, sizden topladığımız kişisel bilgileri korumak ve gizliliğinizi sağlamak için gerekli tüm önlemleri alırız.</p>
 
                 <h3 className="text-xl mt-4">1.1. Toplanan Bilgiler</h3>
 
