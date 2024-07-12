@@ -122,7 +122,7 @@ export default function PropertyDetail() {
     return (
         <div className="text-white">
             <title>{property.title}</title>
-            <div className="h-screen bg-black">
+            <div className=" ">
                 {property.images && property.images.length > 0 && (
                     <Carousel
                         showThumbs={false}
@@ -137,7 +137,7 @@ export default function PropertyDetail() {
                         ))}
                     </Carousel>
                 )}
-                <div className="text-white absolute top-0 left-0 w-full h-full bg-black/40 flex flex-col justify-center items-center">
+                <div className="text-white  absolute top-0 left-0 w-full h-full bg-black/40 flex flex-col justify-center items-center">
                     <div className="px-4 text-center pt-40 space-y-6 z-20" style={{ position: 'absolute' }}>
 
                         <div className="xl:text-7xl text-5xl">

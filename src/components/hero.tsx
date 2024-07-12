@@ -14,9 +14,9 @@ function Hero() {
         <div className="flex-col flex justify-center items-center">
             <div className="w-full h-screen" style={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <video ref={videoRef} src="https://videos.pexels.com/video-files/8045840/8045840-hd_1920_1080_25fps.mp4" className="w-full h-screen object-cover z-0" autoPlay muted loop playsInline />
-                <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
-                <div className="text-center pt-40 space-y-6 z-20" style={{ position: 'absolute' }}>
-                    <div className="text-8xl px-10">
+                <div className="   absolute inset-0 bg-black bg-opacity-40 z-10"></div>
+                <div className="text-center   pt-40 space-y-6 z-20" style={{ position: 'absolute' }}>
+                    <div className="text-7xl   ">
                         <h1 className={alexBrush.className}>
                             Alaeddin&apos;s <br /> Coast
                         </h1>
