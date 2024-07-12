@@ -1,0 +1,227 @@
+{
+    "Main": {
+        "hero": {
+            "title": "Exceptional Luxury Service",
+            "subtitle": "Now in Antalya, Muğla, and İzmir",
+            "button_contact": "Contact",
+            "button_properties": "Our Properties"
+        },
+        "section_2": {
+            "title": "Alaeddin's Coast",
+            "description": "Aleaddin’s Coast is known for its professionalism, expertise, and integrity in luxury real estate. Trusted by high-level executives and celebrities, we deliver exceptional results and consistently exceed expectations.",
+            "button": "Offices"
+        },
+        "section_3": {
+            "title": "Find Us In",
+            "description": "Largest real estate market in Turkey",
+            "button": "Visit Catalog"
+        },
+        "section_4": {
+            "title": "Featured Listing",
+            "beds": "Beds",
+            "baths": "Baths",
+            "size": "Sq.Ft.",
+            "button_1": "View Listing",
+            "button_2": "View All"
+        },
+        "section_5": {
+            "title": "Stand Out with Our Exclusive Services",
+            "description": "We differentiate ourselves from our competitors in the real estate sector with our specialized services. By prioritizing customer satisfaction at every step, we offer unique solutions in the industry.",
+            "website_services": "Website Services",
+            "send_proposal": "Send Proposal",
+            "online_reservation": "Online Reservation",
+            "legal_services": "Legal Services",
+            "residency": "Residency",
+            "citizenship": "Citizenship",
+            "legal_process": "Legal Process",
+            "other_services": "Other Services",
+            "transportation": "Transportation",
+            "private_assistant": "Private Assistant",
+            "translator": "Translator",
+            "financial_services": "Financial Services",
+            "transactions": "Transactions"
+        },
+        "section_6": {
+            "title": "Don't Miss Anything!",
+            "description": "Subscribe to our list to stay informed about the latest real estate investment opportunities and never miss out on any opportunity!"
+        }
+    },
+    "cta": {
+        "title": "List Your Property with",
+        "description": "Ready to sell your property? Aleaddin's Coast is here to help. We offer photography, videography, marketing, and legal support to attract buyers and get the best price for your property.",
+        "button": "Learn More"
+    },
+    "Our-Properties": {
+        "hero": {
+            "title": "Our Exclusive Listings",
+            "subtitle": "Browse our current listings online or contact us to schedule a private showing."
+        },
+        "section_2": {
+            "title": "Our Exclusive Listings",
+            "subtitle": "Browse our current listings online or contact us to schedule a private showing."
+        }
+    },
+    "Offices": {
+        "hero": {
+            "title": "Coast Offices",
+            "description": "Our local experts will guide you on your journey."
+        },
+        "section_2": {
+            "title": "Coast Offices",
+            "description": "Our local experts will guide you on your journey."
+        }
+    },
+    "Office": {
+        "section_2": {
+            "address": "Address:",
+            "phone": "Phone:",
+            "email": "Email:"
+        },
+        "section_3": {
+            "subtitle": "Valuable Real Estate Investments",
+            "description": "We manage real estate investments worth $3,000,000 across the office, achieving high success with our expert team in this field."
+        },
+        "section_4": {
+            "title_1": "Send Proposal",
+            "description_1": "When you find a property you want to invest in, you can submit your proposal to start the negotiation process.",
+            "title_2": "Online Reservation",
+            "description_2": "You can reserve the property you wish to see online and inspect it live.",
+            "title_3": "Residency",
+            "description_3": "You can receive all the support needed to obtain residency from our expert legal team.",
+            "title_4": "Citizenship",
+            "description_4": "You can receive the support required for citizenship applications and procedures from our expert legal team.",
+            "title_5": "Legal Process",
+            "description_5": "In case of legal issues you may encounter during property purchase, you can receive professional support from our expert legal team.",
+            "title_6": "Transportation",
+            "description_6": "We offer transportation services for our special clients to showcase properties.",
+            "title_7": "Private Assistant",
+            "description_7": "Our clients can receive the support they need by having a personal assistant.",
+            "title_8": "Translator",
+            "description_8": "Our foreign clients can benefit from our personalized translator service to avoid any difficulties while touring properties."
+        }
+    },
+    "Property": {
+        "section_2": {
+            "beds": "Beds",
+            "baths": "Baths",
+            "size": "Sq.Ft.",
+            "readmore": "Read More",
+            "readless": "Read Less",
+            "button": "Contact"
+        },
+        "section_3": {
+            "living-area": "Living Area",
+            "bedrooms": "Bedrooms",
+            "bathrooms": "Bathrooms",
+            "status": "Status",
+            "sales-price": "Sales Price",
+            "property-type": "Property Type"
+        },
+        "features": {
+            "forSale": "For Sale",
+            "forLease": "For Lease",
+            "sold": "Sold",
+            "house": "House",
+            "apartment": "Apartment",
+            "condo": "Condo",
+            "townhouse": "Townhouse",
+            "land": "Land",
+            "commercial": "Commercial"
+        }
+    },
+    "Language-Switch": {
+        "current": "English"
+    },
+    "Navbar": {
+        "our-properties": "Our Properties",
+        "offices": "Offices",
+        "contact": "Contact",
+        "banner": "Considering Tiny House?",
+        "banner-cta": "Check it out!"
+    },
+    "Footer": {
+        "copyright": "Copyright 2024 Alaeddin's Coast Estates. All rights reserved.",
+        "company": {
+            "title": "Company",
+            "sell_with_us": "Sell With Us",
+            "our_properties": "Our Properties"
+        },
+        "offices": {
+            "title": "Offices"
+        },
+        "legal": {
+            "title": "Legal",
+            "privacy_policy": "Privacy Policy",
+            "terms": "Terms"
+        },
+        "contact": {
+            "title": "Contact"
+        }
+    },
+    "Sell-With-Us": {
+        "hero": {
+            "title": "Sell With Us",
+            "subtitle": "Sell With Us"
+        },
+        "section_2": {
+            "title": "Let Us Sell Your Property",
+            "description": "Using our expertise and extensive marketing network, we help you sell your property at the best price and in the shortest time possible. We meticulously plan every step, enhance your property's value by effectively communicating with potential buyers, and leverage our strong customer network."
+        },
+        "section_3": {
+            "title": "High Performance",
+            "description": "We manage over $13,000,000 worth of 120+ properties. Additionally, we serve over 100 investors and 1500+ subscribers.",
+            "funds-raised": "Funds Raised",
+            "properties": "Properties",
+            "investors": "Investors",
+            "subscribers": "Subscribers"
+        },
+        "section_4": {
+            "title_1": "Transactions",
+            "description_1": "We offer private solutions for our buyers to invest in our properties.",
+            "title_2": "International Listings",
+            "description_2": "We will list your property on international platforms, targeting potential buyers from Russia, Arab countries, Germany, etc.",
+            "title_3": "Trailer Clip",
+            "description_3": "A short, engaging video clip of the property will be created to attract potential buyers.",
+            "title_4": "Social Media Ads",
+            "description_4": "We will run targeted social media ads to reach a wider audience and attract potential buyers.",
+            "title_5": "Transportation",
+            "description_5": "We offer transportation services for potential buyers who want to visit and inspect the property.",
+            "title_6": "Search Engine Optimization",
+            "description_6": "Ensuring Search Engine Optimization for better online visibility."
+        },
+        "section_5": {
+            "title": "Wide and Comprehensive Solutions",
+            "description": "We offer a range of plans tailored to property needs. Whether it's a small farmhouse or a penthouse, we have a plan that's right for it.",
+            "subtitle": "Features",
+            "main_description": "Each option offers a suitable plan based on your property's features and requirements.",
+            "feature_1_1": "Listing from Owner",
+            "feature_1_2": "Professional Photography",
+            "feature_1_3": "Search Engine Optimization",
+            "feature_1_4": "Material Marketing",
+            "feature_2_1": "International Listing",
+            "feature_2_2": "Trailer Clip",
+            "feature_2_3": "Videography",
+            "feature_3_1": "Transportation",
+            "feature_3_2": "Private Assistant",
+            "feature_3_3": "Comprehensive Catalog Listing",
+            "title_1": "Essential",
+            "description_1": "All Properties",
+            "title_2": "Gold",
+            "description_2": "Properties over $500K",
+            "title_3": "Platinum",
+            "description_3": "Properties over $1.5M"
+        },
+        "section_6": {
+            "title": "Let's Get Started!",
+            "description": "Submit the details of the property you want to sell by filling out the form. Our expert team will create a marketing plan, reach potential buyers, and conclude the sales process for you."
+        }
+    },
+    "Property-List": {
+        "title": "Featured Listing",
+        "beds": "Beds",
+        "baths": "Baths",
+        "size": "Sq.Ft.",
+        "button_1": "View Listing",
+        "button_2": "View All"
+    }
+}

@@ -1,0 +1,227 @@
+{
+    "Main": {
+        "hero": {
+            "title": "Exceptional Luxury Service",
+            "subtitle": "Now in Antalya, Muğla, and İzmir",
+            "button_contact": "İletişim",
+            "button_properties": "Portföyümüz"
+        },
+        "section_2": {
+            "title": "Aleaddin's Coast",
+            "description": "Aleaddin's Coast, lüks gayrimenkul sektöründe profesyonellik, uzmanlık ve dürüstlüğüyle tanınır. Üst düzey yöneticiler ve ünlüler tarafından güvenilen bir marka olarak, olağanüstü sonuçlar sunuyor ve beklentilerin üzerine çıkıyoruz.",
+            "button": "Ofisler"
+        },
+        "section_3": {
+            "title": "Bizi Bulun",
+            "description": "Türkiye'nin en büyük gayrimenkul pazarında",
+            "button": "Katalogu Ziyaret Et"
+        },
+        "section_4": {
+            "title": "Öne Çıkan İlanlar",
+            "beds": "Yatak Odası",
+            "baths": "Banyo",
+            "size": "Ft²",
+            "button_1": "İlanı Görüntüle",
+            "button_2": "Hepsini Görüntüle"
+        },
+        "section_5": {
+            "title": "Ayrıcalıklı Hizmetlerimizle Sizi Öne Çıkarıyoruz",
+            "description": "Emlak sektöründe sunduğumuz özel hizmetlerle rakiplerimizden ayrılıyoruz. Her adımda müşteri memnuniyetini ön planda tutarak, sektörde benzersiz çözümler sunuyoruz.",
+            "website_services": "Web Sitesi Hizmetleri",
+            "send_roposal": "Teklif Gönder",
+            "online_reservation": "Online Rezervasyon",
+            "legal_services": "Hukuk Hizmetleri",
+            "residency": "Oturum",
+            "citizenship": "Vatandaşlık",
+            "legal_process": "Hukuki Süreç",
+            "other_services": "Diğer Hizmetler",
+            "transportation": "Ulaşım",
+            "private_assistant": "Özel Asistan",
+            "translator": "Tercüman",
+            "financial_services": "Finansal Hizmetler",
+            "transactions": "İşlemler"
+        },
+        "section_6": {
+            "title": "Hiçbir Şeyi Kaçırma!",
+            "description": "Abone olarak en güncel gayrimenkul yatırım fırsatlarından haberdar olun ve hiçbir fırsatı kaçırmayın!"
+        }
+    },
+    "cta": {
+        "title": "Emlağınızı Aleaddin's Coast ile Listeleyin",
+        "description": "Emlağınızı satmaya hazır mısınız? Aleaddin's Coast, fotoğrafçılık, videografik, pazarlama ve hukuki destek sunarak alıcıları çekmek ve emlağınız için en iyi fiyatı almanıza yardımcı olur.",
+        "button": "Daha Fazla Bilgi"
+    },
+    "Our-Properties": {
+        "hero": {
+            "title": "Özel İlanlarımız",
+            "subtitle": "Mevcut ilanlarımızı çevrimiçi olarak göz atın veya özel bir gösterim için bizimle iletişime geçin."
+        },
+        "section_2": {
+            "title": "Özel İlanlarımız",
+            "subtitle": "Mevcut ilanlarımızı çevrimiçi olarak göz atın veya özel bir gösterim için bizimle iletişime geçin."
+        }
+    },
+    "Offices": {
+        "hero": {
+            "title": "Coast Ofisleri",
+            "description": "Yerel uzmanlarımız yolculuğunuzda size rehberlik edecektir."
+        },
+        "section_2": {
+            "title": "Coast Ofisleri",
+            "description": "Yerel uzmanlarımız yolculuğunuzda size rehberlik edecektir."
+        }
+    },
+    "Office": {
+        "section_2": {
+            "address": "Adres:",
+            "phone": "Telefon:",
+            "email": "Email:"
+        },
+        "section_3": {
+            "subtitle": "Değerindeki Emlak Yatırımları",
+            "description": "Ofis genelinde $3.000.000 değerindeki emlak yatırımlarını yönetiyoruz ve bu alanda uzman ekibimizle yüksek başarılar elde ediyoruz."
+        },
+        "section_4": {
+            "title_1": "Teklif Gönder",
+            "description_1": "Yatırım yapmak istediğiniz emlağı bulduğunuzda, pazarlık sürecine başlamak için teklifinizi gönderebilirsiniz.",
+            "title_2": "Online Rezervasyon",
+            "description_2": "Görmek istediğiniz emlağı, online olarak rezerve edebilir ve canlı olarak inceleyebilirsiniz.",
+            "title_3": "Oturum",
+            "description_3": "Uzman hukuk ekibimizden oturum izni almak için gerekli olan tüm desteği alabilirsiniz.",
+            "title_4": "Vatandaşlık",
+            "description_4": "Uzman hukuk ekibimizden vatandaşlık başvurusu ve işlemleri için gereken desteği alabilirsiniz.",
+            "title_5": "Hukuki Süreç",
+            "description_5": "Mülk alımında karşılaşabileceğiniz yasal sorunlarda, uzman hukuk ekibimizden profesyonel destek alabilirsiniz.",
+            "title_6": "Ulaşım",
+            "description_6": "Özel müşterilerimize emlakları göstermek amacıyla ulaşım hizmeti sunuyoruz.",
+            "title_7": "Özel Asistan",
+            "description_7": "Müşterilerimiz, kendilerine özel asistanlardan yardım alarak ihtiyaç duydukları desteği sağlayabilirler.",
+            "title_8": "Tercüman",
+            "description_8": "Yabancı müşterilerimiz, emlak gezerken zorlanmamak için kişiye özel tercüman hizmetimizden yararlanabilirler."
+        }
+    },
+    "Property": {
+        "section_2": {
+            "beds": "Yatak Odası",
+            "baths": "Banyo",
+            "size": "Ft²",
+            "readmore": "Daha Fazla Oku",
+            "readless": "Daha Az Oku",
+            "button": "İletişim"
+        },
+        "section_3": {
+            "living-area": "Yaşam Alanı",
+            "bedrooms": "Yatak Odası",
+            "bathrooms": "Banyo",
+            "status": "Durum",
+            "sales-price": "Satış Fiyatı",
+            "property-type": "Emlak Türü"
+        },
+        "features": {
+            "forSale": "Satılık",
+            "forLease": "Kiralık",
+            "sold": "Satıldı",
+            "house": "Ev",
+            "apartment": "Daire",
+            "condo": "Kondo",
+            "townhouse": "Şehir Evi",
+            "land": "Arazi",
+            "commercial": "Ticari"
+        }
+    },
+    "Language-Switch": {
+        "current": "Türkçe"
+    },
+    "Navbar": {
+        "our-properties": "Portföyümüz",
+        "offices": "Ofisler",
+        "contact": "İletişim",
+        "banner": "Tiny House düşünür müsün?",
+        "banner-cta": "Buna bak!"
+    },
+    "Footer": {
+        "copyright": "Copyright 2024 Aleaddin's Coast Estates. All rights reserved.",
+        "company": {
+            "title": "Şirket",
+            "sell_with_us": "Birlikte Satış Yapalım",
+            "our_properties": "Portföyümüz"
+        },
+        "offices": {
+            "title": "Ofisler"
+        },
+        "legal": {
+            "title": "Hukuk",
+            "privacy_policy": "Gizlilik Politikası",
+            "terms": "Şartlar"
+        },
+        "contact": {
+            "title": "İletişim"
+        }
+    },
+    "Sell-With-Us": {
+        "hero": {
+            "title": "Birlikte Satış Yapalım",
+            "subtitle": "Birlikte Satış Yapalım"
+        },
+        "section_2": {
+            "title": "Birlikte Satış Yapalım",
+            "description": "Uzmanlığımız ve geniş pazarlama ağımız ile mülkünüzü en iyi fiyatla ve en kısa sürede satmanıza yardımcı oluyoruz. Her adımı titizlikle planlayarak, potansiyel alıcılarla etkili iletişim kurarak ve güçlü müşteri ağımızı kullanarak mülkünüzün değerini artırıyoruz."
+        },
+        "section_3": {
+            "title": "Yüksek Performans",
+            "description": "$13,000,000 değerinde 120’den fazla gayrimenkul yönetiyoruz. Ayrıca 100’den fazla yatırımcı ve 1500’den fazla abonemize hizmet veriyoruz.",
+            "funds-raised": "Toplanan Fonlar",
+            "properties": "Gayrimenkuller",
+            "investors": "Yatırımcılar",
+            "subscribers": "Aboneler"
+        },
+        "section_4": {
+            "title_1": "İşlemler",
+            "description_1": "Alıcılarımız için mülklerimizi yatırım yapmak için özel çözümler sunuyoruz.",
+            "title_2": "Uluslararası Listeler",
+            "description_2": "Mülkünüzü Rusya, Arap ülkeleri, Almanya vb. potansiyel alıcıları hedefleyen uluslararası platformlarda listeleyeceğiz.",
+            "title_3": "Fragman Klibi",
+            "description_3": "Mülkün kısa, ilgi çekici bir video klibi oluşturulacak potansiyel alıcıları çekmek için.",
+            "title_4": "Sosyal Medya Reklamları",
+            "description_4": "Daha geniş bir kitleye ulaşmak ve potansiyel alıcıları çekmek için hedeflenmiş sosyal medya reklamları düzenleyeceğiz.",
+            "title_5": "Ulaşım",
+            "description_5": "Mülkü ziyaret etmek ve incelemek isteyen potansiyel alıcılar için ulaşım hizmetleri sunuyoruz.",
+            "title_6": "Arama Motoru Optimizasyonu",
+            "description_6": "Daha iyi online görünürlük için Arama Motoru Optimizasyonu sağlama."
+        },
+        "section_5": {
+            "title": "Geniş ve Kapsamlı Çözümler",
+            "description": "Mülk ihtiyaçlarına uygun bir dizi plan sunuyoruz. Küçük bir çiftlik evi mi yoksa çatı katı mı, onun için uygun bir planımız var.",
+            "subtitle": "Özellikler",
+            "main_description": "Her bir seçenek, mülkünüzün özelliklerine ve ihtiyaçlarına göre uygun bir plan sunar.",
+            "feature_1_1": "Sahibinden İlan",
+            "feature_1_2": "Profesyonel Fotoğrafçılık",
+            "feature_1_3": "Arama Motoru Optimizasyonu",
+            "feature_1_4": "Materyal Pazarlama",
+            "feature_2_1": "Uluslararası Listeleme",
+            "feature_2_2": "Fragman Klibi",
+            "feature_2_3": "Video Çekimi",
+            "feature_3_1": "Ulaşım",
+            "feature_3_2": "Özel Asistan",
+            "feature_3_3": "Kapsamlı Katalog Listeleme",
+            "title_1": "Esas",
+            "description_1": "Tüm Mülkler",
+            "title_2": "Altın",
+            "description_2": "$500K üzeri mülkler",
+            "title_3": "Platin",
+            "description_3": "$1.5M üzeri mülkler"
+        },
+        "section_6": {
+            "title": "Hadi Başlayalım!",
+            "description": "Satmak istediğiniz mülkün bilgilerini bize ileterek formu doldurun. Uzman ekibimiz pazarlama planı oluşturacak, potansiyel alıcılara ulaşacak ve satış işlemini sizin için tamamlayacaktır."
+        }
+    },
+    "Property-List": {
+        "title": "Öne Çıkan Liste",
+        "beds": "Yatak Odası",
+        "baths": "Banyo",
+        "size": "Ft²",
+        "button_1": "Listeyi Görüntüle",
+        "button_2": "Tümünü Görüntüle"
+    }
+}
